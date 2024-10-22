@@ -6,17 +6,15 @@ This extension is a fork of [vscode-to-photoshop](https://github.com/bialikover/
 ### [vscode-to-photoshop](https://github.com/bialikover/vscode-to-photoshop):
 
 ```js
-// my-phoroshop-javascript.js on macOS
+// my-photoshop-javascript.js on macOS
 
 var currentScriptFile = new File($.fileName);
-alert(currentScriptFile.toString());
-
-// ~/.vscode/extensions/bialikover.vscode-to-photoshop-0.0.3/out/src/tmp_file.jsx
+alert(currentScriptFile.toString()); // ~/.vscode/extensions/bialikover.vscode-to-photoshop-0.0.3/out/src/tmp_file.jsx
 ```
 
 ### [vscode-to-photoshop2](https://github.com/edwardfxiao/vscode-to-photoshop2):
 ```js
-// my-phoroshop-javascript.js on macOS
+// my-photoshop-javascript.js on macOS
 
 var JSON = {
 	 parse: function (str) {
@@ -30,8 +28,7 @@ try {
   actualFilename = option.filename;
 }
 catch(e){}
-alert(actualFilename);
-// ~/my-actual-file-path/my-actual-file.jsx
+alert(actualFilename); // ~/my-actual-file-path/my-actual-file.jsx
 ```
 
 
