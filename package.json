@@ -1,8 +1,8 @@
 {
   "name": "vscode-to-photoshop2",
-  "displayName": "vscode-to-photoshop2",
+  "displayName": "vscode-to-photoshop2-with-real-path",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -11,6 +11,8 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "publisher": "edwardfxiao",
+  "repository": "https://github.com/edwardfxiao/vscode-to-photoshop2",
   "contributes": {
     "commands": [
       {
