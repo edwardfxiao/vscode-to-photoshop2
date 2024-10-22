@@ -34,3 +34,8 @@ alert(actualFilename); // ~/my-actual-file-path/my-actual-file.jsx
 
 
 What this new extension does is to provide a additianal `filename` param of actual file path as [this issue states](https://github.com/bialikover/vscode-to-photoshop/issues/3) states.
+
+## Usage
+- Install the extension from the market place.
+- Press cmd + shift + p to open the command palete
+- type in: extend script and use `Extend Script: Evaluate2`
