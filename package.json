@@ -2,7 +2,7 @@
   "name": "vscode-to-photoshop2",
   "displayName": "vscode-to-photoshop2-with-real-path",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.94.0"
   },
