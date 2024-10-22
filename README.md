@@ -17,10 +17,10 @@ alert(currentScriptFile.toString()); // ~/.vscode/extensions/bialikover.vscode-t
 // my-photoshop-javascript.js on macOS
 
 var JSON = {
-	 parse: function (str) {
-	    return eval('(' + str + ')');
-	  }
-	};
+  parse: function (str) {
+      return eval('(' + str + ')');
+    }
+  };
 }
 var actualFilename = "";
 try {
@@ -33,4 +33,4 @@ alert(actualFilename); // ~/my-actual-file-path/my-actual-file.jsx
 
 
 
-What this new extension does is to provide a actual file path as [this issue states](https://github.com/bialikover/vscode-to-photoshop/issues/3) states.
+What this new extension does is to provide a additianal `filename` param of actual file path as [this issue states](https://github.com/bialikover/vscode-to-photoshop/issues/3) states.
