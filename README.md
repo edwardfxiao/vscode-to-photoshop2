@@ -2,10 +2,11 @@
 
 This extension is a fork of **[vscode-to-photoshop](https://github.com/bialikover/vscode-to-photoshop)**
 
-### VS Market link: [vscode-to-photoshop2-with-real-path](https://marketplace.visualstudio.com/items?itemName=edwardfxiao.vscode-to-photoshop2)
 
 
-### [vscode-to-photoshop](https://github.com/bialikover/vscode-to-photoshop):
+### To get the actual javascript file path:
+
+### [vscode-to-photoshop](https://github.com/bialikover/vscode-to-photoshop): (Not possible)
 
 ```js
 // my-photoshop-javascript.js on macOS
